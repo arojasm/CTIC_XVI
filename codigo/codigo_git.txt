@@ -1,0 +1,62 @@
+  498  git --version
+  499  exit
+  500  git init -l
+  501  git congif -l
+  502  git config -l
+  503  git init
+  504  git status
+  505  git add .
+  506  git status
+  507  git commit -m "Primera version"
+  508  vim ddl_tablas.hql 
+  509  git log
+  510  git log
+  511  git tag v0.1 f4b21bee9b560d2786033744aa41485f49e15e0f
+  512  git -l
+  513  git tag -l
+  514  vim ddl_tablas.hql 
+  515  git status
+  516  git status
+  517  git add .
+  518  git commit -m " version2"
+  519  git log
+  520  git tag v0.2 d7c1b64a1234455897d05ca5404d66e6cbce9429
+  521  git tag -l
+  522  git log
+  523  git tag -d v0.2
+  524  git log
+  525  git tag v0.1.1 d7c1b64a1234455897d05ca5404d66e6cbce9429
+  526  git log --oneline
+  527  git branch -l
+  528  git branch desarrollo
+  529  git branch -l
+  530  git checkout desarrollo
+  531  git status
+  532  git add -A
+  533  git commit -m "version en desarrollo"
+  534  git log
+  535  git tag v0.2
+  536  git log
+  537  git checkout master
+  538  git merge desarrollo
+  539  git checkout desarrollo
+  540  git status
+  541  git add .
+  542  git status
+  543  git add .
+  544  git commit -m " version en desarrollo con nuevo archivo"
+  545  cd ..
+  546  clear
+  547  git clone https://github.com/arojasm/CTIC_XVI.git
+  548  cd Repositorio/
+  549  git checkout master
+  550  git remote add original https://github.com/arojasm/CTIC_XVI.git
+  551  git remote -v
+  552  git fetch original main
+  553  git merge original/main --allow-unrelated-histories
+  554  git push original master
+  555  git push original desarrollo
+  556  git push original master --tags
+  557  git tag -l
+  558  cd ..
+  559  history > codigo_git.txt
